@@ -3,82 +3,53 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Jason's Personal Site</title>
+  <title>Jason Dichoso</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
-  <table cellspacing="10">
-    <tr>
-      <td>
-        <img src="Images/linkedinprofile.png" alt="Jason profile picture">
-      </td>
-      <td>
-        <h1>Jason Dichoso</h1>
-        <p>
-          <em>
-            LSR Manufacturing Engineer at <a href="https://www.resmed.com/au/en/index.html"><strong>ResMed</strong></a>
-          </em>
-        </p>
-        <p>I am a Mechanical Engineer. I enjoy coding and going to the gym.</p>
-      </td>
-    </tr>
-  </table cellspacing="10">
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>University of Technology, Sydney</li>
-    <li>Petersham Tafe</li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table>
-    <thead>
-      <tr>
-        <td align="center"><strong>Dates</strong></td>
-        <td align="center"><strong>Work</strong></td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Oct 18 - Present</td>
-        <td>Manufacturing Engineer at ResMed</td>
-      </tr>
-      <tr>
-        <td>Jan 16 - Oct 18</td>
-        <td>Product Development Engineer at CathRx Ltd</td>
-      </tr>
-      <tr>
-        <td>June 13 - Dec 13</td>
-        <td>CNC Engineer at Warringah Plastics</td>
-      </tr>
-      <tr>
-        <td>Jan 12 - June 12</td>
-        <td>Junior Engineer at Joel Engineering Pty Ltd</td>
-      </tr>
-    </tbody>
-    <tfoot></tfoot>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tbody>
-      <tr>
-        <td>Python</td>
-        <td>⭐⭐⭐⭐⭐</td>
-        <td>Validation</td>
-        <td>⭐⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Solidworks</td>
-        <td>⭐⭐⭐⭐⭐</td>
-        <td>JavaScript</td>
-        <td>⭐⭐⭐</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="contactme.html">Contact me</a>
+  <div class="top-container">
+    <img src="images/cloud.png" alt="cloud-img" class="top-cloud">
+    <h1>I'm Jason</h1>
+    <p>a <span class="field">mechanical</span> engineer.</p>
+    <img src="images/cloud.png" alt="cloud-img" class="bottom-cloud">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profilepicture" src="images/linkedinprofile.png" alt="profilepic">
+      <h2>Hello.</h2>
+      <p>I am a mechanical engineer currently employed in the medical device industry. Interests include programming and gym.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class = "SkillImages" src="images/validation.png" alt="valdation">
+        <h3>Engineering Verification/Validation</h3>
+        <p>I am well versed in Engineering Verification and Validation having successfully implemented various manufacturing processes throughout the lifecyle of medical devices.</p>
+      </div>
+      <div class="skill-row">
+        <img class = "SkillImages" src="images/ContinuousImprovement.png" alt="ContinuousImprovement">
+        <h3>Continuous Improvement</h3>
+        <p>I have been involved in many continuous improvements projects ranging from software implementation to product design optimisation.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you are looking for a manufacturing/process engineer or similar</h3>
+      <p>Lets talk about how my skills will be beneficial to the success of your company.</p>
+      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/jason-dichoso-719851100/">LinkedIn</a>
+    <p>© 2018 Jason Dichoso.</p>
+  </div>
 </body>
 
 </html>
